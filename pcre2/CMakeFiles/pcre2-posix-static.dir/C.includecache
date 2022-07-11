@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/engle/projects/xp/pcre2/src/pcre2posix.c
+config.h
+/home/engle/projects/xp/pcre2/src/config.h
+ctype.h
+-
+limits.h
+-
+stddef.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+pcre2.h
+/home/engle/projects/xp/pcre2/src/pcre2.h
+pcre2posix.h
+/home/engle/projects/xp/pcre2/src/pcre2posix.h
+
+/home/engle/projects/xp/pcre2/src/pcre2posix.h
+stdlib.h
+-
+
+config.h
+
+pcre2.h
+limits.h
+-
+stdlib.h
+-
+inttypes.h
+-
+

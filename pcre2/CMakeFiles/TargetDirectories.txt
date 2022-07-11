@@ -1,0 +1,11 @@
+/home/engle/projects/xp/pcre2/build/CMakeFiles/install/strip.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/install.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/list_install_components.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/rebuild_cache.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/edit_cache.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/test.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/pcre2test.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/install/local.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/pcre2grep.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/pcre2-posix-static.dir
+/home/engle/projects/xp/pcre2/build/CMakeFiles/pcre2-8-static.dir
