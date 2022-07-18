@@ -2,6 +2,8 @@ This repo use Rust FFI to bind [PCRE2(Perl Compatible Regular Expressions)](http
 to implement regular expression. It's for practice.
 
 The directory `pcre2/` is PCRE2 library generated with `make`.
+And here, `pcre2` is for MacOS, `pcre2-linux` is for Linux.
+If your platform is not Mac, you should change `build.rs` as comments said in it.
 
 You can download the PCRE2 repo, `cd` in it, and type these commands to generate the library:
 
