@@ -1,0 +1,1 @@
+/usr/bin/cc  -mshstk  -rdynamic CMakeFiles/pcre2grep.dir/src/pcre2grep.c.o  -o pcre2grep  libpcre2-posix.a -lz libpcre2-8.a 

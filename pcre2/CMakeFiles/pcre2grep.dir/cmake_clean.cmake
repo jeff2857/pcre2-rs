@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pcre2grep.dir/src/pcre2grep.c.o"
+  "CMakeFiles/pcre2grep.dir/src/pcre2grep.c.o.d"
   "pcre2grep"
   "pcre2grep.pdb"
 )

@@ -1,0 +1,98 @@
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d295f/fast && /usr/bin/make -f CMakeFiles/cmTC_d295f.dir/build.make CMakeFiles/cmTC_d295f.dir/build
+make[1]: Entering directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d295f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d295f.dir/CheckIncludeFile.c.o   -c /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: windows.h: No such file or directory
+    1 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d295f.dir/build.make:66: CMakeFiles/cmTC_d295f.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d295f/fast] Error 2
+
+
+
+Determining if the memfd_create exist failed with the following output:
+Change Dir: /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b35af/fast && /usr/bin/make -f CMakeFiles/cmTC_b35af.dir/build.make CMakeFiles/cmTC_b35af.dir/build
+make[1]: Entering directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b35af.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b35af.dir/CheckSymbolExists.c.o   -c /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘memfd_create’ undeclared (first use in this function)
+    8 |   return ((int*)(&memfd_create))[argc];
+      |                   ^~~~~~~~~~~~
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_b35af.dir/build.make:66: CMakeFiles/cmTC_b35af.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b35af/fast] Error 2
+
+
+File /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memfd_create
+  return ((int*)(&memfd_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the secure_getenv exist failed with the following output:
+Change Dir: /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be2ad/fast && /usr/bin/make -f CMakeFiles/cmTC_be2ad.dir/build.make CMakeFiles/cmTC_be2ad.dir/build
+make[1]: Entering directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be2ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_be2ad.dir/CheckSymbolExists.c.o   -c /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘secure_getenv’ undeclared (first use in this function)
+    8 |   return ((int*)(&secure_getenv))[argc];
+      |                   ^~~~~~~~~~~~~
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTC_be2ad.dir/build.make:66: CMakeFiles/cmTC_be2ad.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_be2ad/fast] Error 2
+
+
+File /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef secure_getenv
+  return ((int*)(&secure_getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_UNINITIALIZED failed with the following output:
+Change Dir: /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15d9a/fast && /usr/bin/make -f CMakeFiles/cmTC_15d9a.dir/build.make CMakeFiles/cmTC_15d9a.dir/build
+make[1]: Entering directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15d9a.dir/src.c.o
+/usr/bin/cc   -DHAVE_ATTRIBUTE_UNINITIALIZED  -Werror   -o CMakeFiles/cmTC_15d9a.dir/src.c.o   -c /home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/src.c
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp/src.c:1:1: error: ‘uninitialized’ attribute directive ignored [-Werror=attributes]
+    1 | int main() { char buf[128] __attribute__((uninitialized)); (void)buf; return 0; }
+      | ^~~
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_15d9a.dir/build.make:66: CMakeFiles/cmTC_15d9a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/engle/projects/xp/pcre2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_15d9a/fast] Error 2
+
+
+Source file was:
+int main() { char buf[128] __attribute__((uninitialized)); (void)buf; return 0; }

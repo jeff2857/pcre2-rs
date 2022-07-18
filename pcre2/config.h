@@ -1,6 +1,6 @@
 /* config.h for CMake builds */
 
-/* #undef HAVE_ATTRIBUTE_UNINITIALIZED */
+#define HAVE_ATTRIBUTE_UNINITIALIZED 1
 #define HAVE_DIRENT_H 1
 #define HAVE_STRERROR 1
 #define HAVE_SYS_STAT_H 1
@@ -20,9 +20,9 @@
 /* #undef PCRE2_DEBUG */
 /* #undef DISABLE_PERCENT_ZT */
 
-/* #undef SUPPORT_LIBBZ2 */
+#define SUPPORT_LIBBZ2 1
 /* #undef SUPPORT_LIBEDIT */
-/* #undef SUPPORT_LIBREADLINE */
+#define SUPPORT_LIBREADLINE 1
 #define SUPPORT_LIBZ 1
 
 /* #undef SUPPORT_JIT */
